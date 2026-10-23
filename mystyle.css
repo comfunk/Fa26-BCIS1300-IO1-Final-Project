@@ -1,19 +1,27 @@
-/*body {
+body {
   margin: 0;
   padding: 0;
   font-size: 28px;
+  font-family: Trebuchet MS, sans-serif;
+  background-color: #ccdaea;
 }
 
-h2, p {
+h2 {
   margin: 10px;
-}*/
+  font-family: cursive;
+  font-size: 62px;
+}
+
+p {
+  margin: 10px;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #a6a6a6;
   position: sticky;
   top: 0;
 }
@@ -31,9 +39,9 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #e8653b;
 }
 
 ul li a.active {
-  background-color: #4CAF50;
+  background-color: #5b6c90;
 }
